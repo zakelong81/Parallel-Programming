@@ -1,0 +1,20 @@
+Long Nguyen
+Report Number of Trapezoidal
+
+Number of trap 43410500
+ARTE: 4.9740779554592725829e-15
+
+I applied Trapezoidal Rule to approximate the area under the curve of the
+function.
+
+I keep increase the number of trap by 1000000 each run until the current error
+is higher than 0.5e-14.
+
+Then I reversed to the last number of trap that run and reduce the increasement
+by divine by 10 until the increasement is 1 and it stop.
+
+It took around 25-30 mins to run if I start at 1. It gets slower that the end
+since the number is very big, and it must keep repeating that very big number
+
+What I found interesting is that sometime increase the number of trap is also
+increase ARTE. I realized that you can either underestimate or overestimate.
